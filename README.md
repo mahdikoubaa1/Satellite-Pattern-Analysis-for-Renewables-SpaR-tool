@@ -69,7 +69,7 @@ Focal Loss
 ## visualization tool
 The visualization tool is a UI interface for sampling training and visualizing predictions
 available in pixnn_notebooks/prediction_visualization.ipynb
-## new environment requirement installation
+## new environment requirement installation (miniconda/anaconda is required)
 ```bash
 bash ./setup_environment.sh
 ```
