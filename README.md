@@ -76,4 +76,4 @@ The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
 bash ./setup_environment.sh
 ```
 ## Data Link
-for the SpaR tool to work as intended, please extract [data.zip](https://drive.google.com/file/d/1a3qTBY3jtcjc_LGzrPugM4NP7biVplur/view?usp=drive_link) in the root directory of this project
+For the SpaR tool to work as intended, please extract [data.zip](https://drive.google.com/file/d/1a3qTBY3jtcjc_LGzrPugM4NP7biVplur/view?usp=drive_link) in the root directory of this project
