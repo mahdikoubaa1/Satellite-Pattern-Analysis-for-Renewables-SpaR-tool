@@ -71,8 +71,8 @@ Focal Loss
 ## SpaR tool
 The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
 ### Supported Features
-* sampling, training and prediction for pixnn architectures (S2 Rasters PV Segmentation)
-* prediction for SolarSAM and Segformer (Aerial Rasters PV Segmentaion (currently limited to Bavaria))
+* sampling, training and prediction for pixnn architecture (S2 Rasters PV Segmentation)
+* prediction for SolarSAM and Segformer architectures (Aerial Rasters PV Segmentaion (currently limited to Bavaria))
 ## Environment requirement installation (miniconda/anaconda is required)
 ```bash
 bash ./setup_environment.sh
