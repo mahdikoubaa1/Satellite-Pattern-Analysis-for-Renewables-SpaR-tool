@@ -70,7 +70,7 @@ Focal Loss
 ### SolarSam architecture using SAM encoder trained on bavarian PV dataset ([link](https://ieeexplore.ieee.org/document/10738071))
 ## SpaR tool
 The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
-# supported features
+### supported features
 * sampling, training and prediction for pixnn architectures (S2 Rasters PV Segmentation)
 * prediction for SolarSAM and Segformer (Aerial Rasters PV Segmentaion (currently limited to Bavaria))
 ## environment requirement installation (miniconda/anaconda is required)
