@@ -66,9 +66,11 @@ Focal Loss
 * We are using all 13 bands except band 11 to train the model 
  
  
-## visualization tool
-The visualization tool is a UI interface for sampling training and visualizing predictions
-available in pixnn_notebooks/prediction_visualization.ipynb
+## SpaR tool
+The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
+# supported features
+* sampling, training and prediction for pixnn architectures (S2 Rasters PV Segmentation)
+* prediction for SolarSAM and Segformer (Aerial Rasters PV Segmentaion (limited to Bavaria))
 ## new environment requirement installation (miniconda/anaconda is required)
 ```bash
 bash ./setup_environment.sh
