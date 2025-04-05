@@ -1,9 +1,7 @@
 #  Sentinel-2 (S2) and Aerial PV Segmentation
 ## model for S2 raster solarfarm segemntation (PIXNN)
 ### Brief description
-The model can be seen as a fully connected nn having as input the bands of a single pixel bands and trained using gradient descent (GD)
-
-We classify by colors/ by band values 
+The model can be seen as a fully connected nn having as input the bands of a single pixel bands i.e. we classify by colors/ by band values
 
 
 ### In practice
