@@ -1,5 +1,5 @@
-# Contribution (prediction on Germany S2 rasters)
-## model for solarfarm segemntation (PIXNN)
+#  Sentinel-2 (S2) and Aerial PV Segmentation
+## model for S2 raster solarfarm segemntation (PIXNN)
 ### Brief description
 The model can be seen as a fully connected nn having as input the bands of a single pixel bands and trained using gradient descent (GD)
 
@@ -64,14 +64,16 @@ Focal Loss
 * Pixels sampled from a polygon get the same label (solarfarm or not solarfarm) as the polygon. 
 * Each sample contains 13 values
 * We are using all 13 bands except band 11 to train the model 
- 
- 
+
+## Aerial Segmentation models
+# Segformer architecture using mit-b5 encoder finetuned on multi-scale PV dataset ([link](https://huggingface.co/nvidia/mit-b5](https://huggingface.co/docs/transformers/en/model_doc/segformer)))
+# SolarSam architecture using SAM encoder trained on bavarian PV dataset ([link](https://ieeexplore.ieee.org/document/10738071))
 ## SpaR tool
 The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
 # supported features
 * sampling, training and prediction for pixnn architectures (S2 Rasters PV Segmentation)
 * prediction for SolarSAM and Segformer (Aerial Rasters PV Segmentaion (currently limited to Bavaria))
-## new environment requirement installation (miniconda/anaconda is required)
+## environment requirement installation (miniconda/anaconda is required)
 ```bash
 bash ./setup_environment.sh
 ```
