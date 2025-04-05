@@ -74,4 +74,4 @@ available in pixnn_notebooks/prediction_visualization.ipynb
 bash ./setup_environment.sh
 ```
 ## data link
-for the SpaR tool to work as intended, please extract [data.zip]: (https://drive.google.com/file/d/1a3qTBY3jtcjc_LGzrPugM4NP7biVplur/view?usp=drive_link) in the root directory of this project
+for the SpaR tool to work as intended, please extract [data.zip](https://drive.google.com/file/d/1a3qTBY3jtcjc_LGzrPugM4NP7biVplur/view?usp=drive_link) in the root directory of this project
