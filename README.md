@@ -66,8 +66,8 @@ Focal Loss
 * We are using all 13 bands except band 11 to train the model 
 
 ## Aerial Segmentation models
-### Segformer architecture using mit-b5 encoder finetuned on multi-scale PV dataset [(link)](https://huggingface.co/docs/transformers/en/model_doc/segformer)
-### SolarSam architecture using SAM encoder trained on bavarian PV dataset ([link](https://ieeexplore.ieee.org/document/10738071))
+### Segformer architecture using mit-b5 encoder finetuned on multi-scale PV dataset ([link](https://huggingface.co/docs/transformers/en/model_doc/segformer)).
+### SolarSam architecture using SAM encoder trained on bavarian PV dataset ([link](https://ieeexplore.ieee.org/document/10738071)).
 ## SpaR tool
 The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
 ### Supported Features
