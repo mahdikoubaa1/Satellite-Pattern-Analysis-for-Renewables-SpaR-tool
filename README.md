@@ -61,7 +61,7 @@ Focal Loss
 * The training dataset is a set of pixels that we sample from labeled polygons drawn on the raster. 
 * Pixels sampled from a polygon get the same label (solarfarm or not solarfarm) as the polygon. 
 * Each sample contains 13 values.
-* We are using all 13 bands except band 11 to train the model.
+* For the best model variant we are using all 13 bands except band 11 to train the model.
 
 ## Aerial Segmentation models
 ### Segformer architecture using mit-b5 encoder finetuned on multi-scale PV dataset ([link](https://huggingface.co/docs/transformers/en/model_doc/segformer)).
