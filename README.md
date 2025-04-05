@@ -8,11 +8,9 @@ We classify by colors/ by band values
 
 ### In practice
 
- 
+* we are using ADAM optimizer with a training dataset of n pixels flattened into 1 x n image
 
-we are using ADAM optimizer with a training dataset of n pixels flattened into 1 x n image 
-
-We are using 1x1 convolution to mimic the behavior of fully connected nn and facilitate the transition to images of arbitrary size. 
+* We are using 1x1 convolution to mimic the behavior of fully connected nn and facilitate the transition to images of arbitrary size. 
  
 
 ### Model Architecture
@@ -62,8 +60,8 @@ Focal Loss
 
 * The training dataset is a set of pixels that we sample from labeled polygons drawn on the raster. 
 * Pixels sampled from a polygon get the same label (solarfarm or not solarfarm) as the polygon. 
-* Each sample contains 13 values
-* We are using all 13 bands except band 11 to train the model 
+* Each sample contains 13 values.
+* We are using all 13 bands except band 11 to train the model.
 
 ## Aerial Segmentation models
 ### Segformer architecture using mit-b5 encoder finetuned on multi-scale PV dataset ([link](https://huggingface.co/docs/transformers/en/model_doc/segformer)).
@@ -71,8 +69,8 @@ Focal Loss
 ## SpaR tool
 The SpaR tool is a UI interface available in notebooks/SpaR_Tool.ipynb.
 ### Supported Features
-* sampling, training and prediction for PIXNN architecture (S2 Rasters PV Segmentation)
-* prediction for SolarSAM and Segformer architectures (Aerial Rasters PV Segmentaion (currently limited to Bavaria))
+* sampling, training and prediction for PIXNN architecture (S2 Rasters PV Segmentation).
+* prediction for SolarSAM and Segformer architectures (Aerial Rasters PV Segmentaion (currently limited to Bavaria)).
 ## Environment requirement installation (miniconda/anaconda is required)
 ```bash
 bash ./setup_environment.sh
