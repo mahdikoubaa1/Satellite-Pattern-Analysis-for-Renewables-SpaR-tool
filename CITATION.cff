@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Satellite-Pattern-Analysis-for-Renewables-SpaR-tool
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mahdi
+    family-names: Koubaa
+repository-code: >-
+  https://github.com/mahdikoubaa1/Satellite-Pattern-Analysis-for-Renewables-SpaR-tool.git
