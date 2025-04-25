@@ -1323,8 +1323,7 @@ class visualize:
                 buffer=BytesIO(img.read())
                 raster=rasterio.open(buffer)
                 roadmask=getBoxTiff(poly=Polygon(((bbox[0],bbox[1]),(bbox[0],bbox[3]),(bbox[2],bbox[3]),(bbox[2],bbox[1]),(bbox[0],bbox[1]))),transform=raster.transform,height=height,width=width)
-                with open(f'{self.data_path}/{self.raster_name}', "wb") as f:
-                    f.write(img.read()) 
+                
                 self.currimg, currtransform = mask(dataset=raster, shapes=cropmask, crop=True)
                 self.rgb=np.moveaxis(self.currimg[0:3],0,2)
                 epsg_code = 4326
